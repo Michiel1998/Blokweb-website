@@ -1,5 +1,123 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+:root {
+  --north-green: #00a987;
+  --font-grey: #31363d;
+ }
+
+@font-face {
+  font-family: sofia-pro-regular;
+  src: url(/styles/fonts/sofia_pro_regular.otf);
 }
 
+@font-face {
+  font-family: sofia-pro-extralight;
+  src: url(/styles/fonts/sofia-pro-ultra.otf);
+}
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+  padding: 0;
+  margin: 0;
+}
+
+body img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin-top: -8rem;
+}
+
+body nav {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body nav a img {
+  margin: 0 0 0 2.7rem;
+  height: 2rem;
+  width: auto;
+  display: inline-block;
+}
+
+body nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 4rem;
+}
+
+body nav ul li a { 
+  color: var(--font-grey);
+  padding: 2.75rem;
+  font-family: 'sofia-pro-regular', sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body nav ul img {
+  position: relative;
+  margin-left: -2.5rem;
+  margin-right: 3rem;
+  width: 1.5rem;
+}
+
+body nav ul a:hover {
+  color: var(--north-green);
+}
+
+body svg {
+  z-index: -1;
+  position: absolute;
+  margin-left: 50%;
+}
+
+body svg line {
+  stroke-width: 0.25em;
+  stroke: var(--north-green);
+}
+
+body article {
+  padding: 47.5rem 0 0 15rem;
+}
+
+body article h1 {
+  font-family: 'sofia-pro-extralight', sans-serif;
+  color: var(--north-green);
+  font-size: 3rem;
+}
+
+body article section ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+body article section ul li {
+  font-family: 'sofia-pro-extralight', sans-serif;
+  list-style: none;
+  margin: 10rem 25rem 0 0;
+}
+
+body article section ul li a {
+  font-family: 'sofia-pro-regular', sans-serif;
+  text-decoration: none;
+}
+
+body article section ul li, 
+body article section ul li a {
+  text-transform: uppercase;
+  text-align: center;
+  color: #31363d;
+
+}
+
+body article section ul li img{
+  z-index: -1;
+  height: 25rem;
+  width: auto;
+}
