@@ -41,11 +41,11 @@ North kiteboarding website
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Product pagina
-<img src="images/pagina1_smallsscreen.jpg" width="375px" alt="Pruduct page">
+<img src="images/pagina1_smallscreen.jpg" width="375px" alt="Pruduct page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Go Green Pagina 
-<img src="images/pagina2_smallsscreen.jpg" width="375px" alt="Go Green Page">
+<img src="images/pagina2_smallscreen.jpg" width="375px" alt="Go Green Page">
  
 </details>
 
