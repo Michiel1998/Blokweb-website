@@ -3,6 +3,7 @@
 :root {
   --north-green: #00a987;
   --font-grey: #31363d;
+  --light-grey: #c4c6ca;
  }
 
 @font-face {
@@ -21,11 +22,188 @@
   margin: 0;
 }
 
+body header {
+  background-image: url(/images/hero-image-mobile.png);
+  z-index: -2;
+  background-size:100%;
+  height: 35em;
+  overflow: hidden;
+
+}
+
+nav a img:first-child {
+  position: fixed;
+  width: 2.5em;
+  margin: 1em;
+  top: 0;
+}
+
+body nav a:nth-child(2) img {
+  top: 0;
+  position: fixed;
+  margin: 8px auto auto 285px;
+  height: 25px;
+  width: auto;
+}
+
+header > svg {
+  top: 0;
+  position: fixed;
+  display: block;
+  margin-left: 187px;
+}
+
+header nav svg {
+  position: fixed;
+  margin-left: 330px;
+  margin-top: 10px;
+  top: 0;
+}
+
+header nav svg rect {
+  width: 30px;
+  height: 3px;
+}
+
+body svg rect {
+  fill: var(--north-green);
+}
+
+body svg line {
+  stroke-width: 0.25em;
+  stroke: var(--north-green);
+}
+
+nav ul li {
+  display: none;
+}
+
+main h1 {
+  font-family: 'sofia-pro-extralight', sans-serif;
+  color: var(--north-green);
+  margin: 20px auto auto 20px;
+}
+
+main button {
+  margin: 10px auto auto 20px;
+  font-family: 'sofia-pro-extralight', sans-serif;
+  color: var(--light-grey);
+  background: none;
+	border: none;
+  font-size: 2em;
+  position: absolute;
+}
+
+main section a img {
+  width: 350px;
+  margin: 20px auto auto 20px;
+  scroll-snap-align: center;
+}
+
+main section {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center;
+  /* -webkit-overflow-scrolling: touch; */
+  overflow: auto;
+}
+
+main section a {
+  text-decoration: none;
+  color: var(--font-grey);
+  text-transform: uppercase;
+  text-align: center;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center;
+}
+
+article h3 {
+  font-family:"sofia-pro-regular", sans-serif ;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+article h5 {
+  font-family:"sofia-pro-extralight", sans-serif ;
+  padding: 5px;
+}
+
+article video {
+  width: 375px;
+}
+
+article img {
+  width: 375px;
+  margin-top: -10px;
+  z-index: -1;
+}
+
+article button {
+  background-color: none;
+  color: var(--font-grey);
+  border: 1px solid var(--north-green);
+  font-family: 'sofia-pro-extralight', sans-serif;
+  font-size: 12px;
+  padding: 8px;
+  margin: 100px auto auto 240px;
+  text-transform: uppercase;
+  width: 80px;
+}
+
+article button:hover {
+  background-color: var(--north-green);
+  transition: 0.3s;
+}
+
+footer {
+  position: relative;
+}
+
+footer ul {
+  background-color: black;
+  padding: 8px;
+}
+
+footer ul li {
+  padding: 5px;
+  color: white;
+  font-family:'sofia-pro-extralight', sans-serif;
+  font-size: 10px;
+}
+
+footer section {
+  width: 376px;
+  background-color: black;
+  margin: -1px;
+}
+
+footer svg {
+  margin-left: 187px;
+  position:absolute;
+  bottom:0;
+}
+
+footer svg line {
+  stroke-width: 0.25em;
+  stroke: var(--north-green);
+} 
+
+
+
+
+
+/* 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
 body img {
   position: absolute;
   z-index: -1;
   width: 100%;
-  margin-top: -8rem;
+  margin-top: -8em;
 }
 
 body nav {
@@ -38,8 +216,8 @@ body nav {
 }
 
 body nav a img {
-  margin: 0 0 0 2.7rem;
-  height: 2rem;
+  margin: 0 0 0 2.7em;
+  height: 2em;
   width: auto;
   display: inline-block;
 }
@@ -47,23 +225,30 @@ body nav a img {
 body nav ul {
   list-style: none;
   display: flex;
-  padding-top: 4rem;
+  padding-top: 4em;
+  flex-wrap:wrap;
+  min-width:6em;
+  text-align:right;
+  
 }
 
 body nav ul li a { 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
   color: var(--font-grey);
-  padding: 2.75rem;
+  padding: 2.75em;
   font-family: 'sofia-pro-regular', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.8em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 body nav ul img {
   position: relative;
-  margin-left: -2.5rem;
-  margin-right: 3rem;
-  width: 1.5rem;
+  margin-left: -2.5em;
+  margin-right: 3em;
+  width: 1.5em;
 }
 
 body nav ul a:hover {
@@ -82,42 +267,59 @@ body svg line {
 }
 
 body article {
-  padding: 47.5rem 0 0 15rem;
+  padding: 47.5em 0 0 15em;
 }
 
-body article h1 {
+body h1 {
   font-family: 'sofia-pro-extralight', sans-serif;
   color: var(--north-green);
-  font-size: 3rem;
+  margin-top: 40%;
+  font-size: 2.7em;
+  padding: 2em 0 2em 20em;
 }
 
-body article section ul {
-  position: relative;
+body section {
+  margin-top: 10em;
+  padding-bottom: 5em;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
-body article section ul li {
-  font-family: 'sofia-pro-extralight', sans-serif;
-  list-style: none;
-  margin: 10rem 25rem 0 0;
+body section button {
+  width: 5em;
+  height: 10em;
+  padding: 2em;
 }
 
-body article section ul li a {
+body section a {
+  height: 10%;
+}
+
+body section a img {
+  width: 20%;
+}
+
+body section a article h3 {
   font-family: 'sofia-pro-regular', sans-serif;
+  
+}
+
+body section a article h5 {
+  font-family: 'sofia-pro-extralight', sans-serif;
+  
+}
+
+body section a {
+  display: flex;
+  color: var(--font-grey);
   text-decoration: none;
-}
-
-body article section ul li, 
-body article section ul li a {
   text-transform: uppercase;
+}
+
+body section a article {  
   text-align: center;
-  color: #31363d;
-
+  padding-top: 17em;
+  margin-left: -40%;
 }
-
-body article section ul li img{
-  z-index: -1;
-  height: 25rem;
-  width: auto;
-}
+  } */

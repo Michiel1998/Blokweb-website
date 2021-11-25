@@ -41,11 +41,11 @@ North kiteboarding website
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Product pagina
-<img src="images/Pagina1.jpg" width="375px" alt="Pruduct page">
+<img src="images/pagina1_smallsscreen.jpg" width="375px" alt="Pruduct page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Go Green Pagina 
-<img src="images/Pagina2.jpg" width="375px" alt="Go Green Page">
+<img src="images/pagina2_smallsscreen.jpg" width="375px" alt="Go Green Page">
  
 </details>
 
@@ -57,7 +57,7 @@ Go Green Pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdown_schets_fed.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -76,18 +76,26 @@ Go Green Pagina
 <details open>
 <summary>uitwerken voor 1e voortgang</summary>
 
-### Stand van zaken
+### Stand van zaken:
+Ik was eerst begonnen met het namaken van de website op groot scherm. Echter begreep ik later dat je moest beginnen op klein scherm. Daarom ben ik hier mee begonnen. Zoals altijd met html en css zijn er altijd dingen die stroef lopen. Bij het begin was het lastig om de background img goed te centreren en af te snijden. Daarna was de volgende uitdaging de navgatie goed centreren en de grotes goed krijgen. De navigatie helemaal werkend krijgen ga ik volgende week doen. De volgende uitdaging was de caroussel. Dit is nog geen caroussel maar een auto scroll, dit werkt erg goed. Ik kreeg het alleen nog niet voor elkaar om te scroll snappen. Dit ga ik vragen bij het voortgangs moment. 
+
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+### lastig: 
+<img src="images/caroussel.jpg" width="375px" alt="lastig">
+
+### lastig: 
+<img src="images/caroussel_code.jpg" width="375px" alt="lastig">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Michiel                       | student 2          | student 3    | student 4        |
+| ---                           | ---                | ---          | ---              |
+| Nav in uitklappen             | en dit             | en ik dit    | en dan ik dat    |
+| scroll snap en caroussel      | dit als er tijd is | nog een punt | dit wil ik zeker |
+| zoeken en typen               | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
