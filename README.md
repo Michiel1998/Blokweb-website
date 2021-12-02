@@ -91,20 +91,21 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Michiel                       | student 2          | student 3    | student 4        |
-| ---                           | ---                | ---          | ---              |
-| Nav in uitklappen             | en dit             | en ik dit    | en dan ik dat    |
-| scroll snap en caroussel      | dit als er tijd is | nog een punt | dit wil ik zeker |
-| zoeken en typen               | ...                | ...          | ...              |
+| Michiel                       | Oeds          | Youssef    | student 4        |
+| ---                           | ---           | ---        | ---              |
+| Nav in uitklappen             | niet aanwezig | Niet aanwezig | en dan ik dat    |
+| scroll snap en caroussel      |               |               | dit wil ik zeker |
+| zoeken en typen               | ...           | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Screenshots schermen langer
+https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior
+https://codepen.io/deannabosschert/pen/PopGXJx
+https://codepen.io/Yunusemre18/pen/GREVqqM
+
 
 </details>
 
@@ -118,17 +119,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week ben ik aan de slag gegaan met mijn navigatie en de grid. Ik heb de navigatie vrij snel voor elkaar gekregen omdat we dit vorige les hadden besproken. Dit heeft mij veel geholpen. Dit was hetzelfe met de grids. Echter kwam ik erachter dat ik voor mijn twee pagina's alletwee articles gebruik waardoor ik die nu in de css allebei aanspreek. Als ik classes kon gebruiken kon ik dit oplossen maar ik weet nu nog niet hoe ik dat zonder moet doen. 
 
+### lastig: 
+<img src="images/articles.jpg" width="375px" alt="lastig">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Michiel      | Oeds         | Youssef   | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Zoekbalk functie | Moest nog beginnen        | Geen antwoord gekregen    | en dan ik dat    |
+| Twee arcticles in twee pagina's| dit als er tijd is | nog een punt | dit wil ik zeker |
+| Lijnen in html          | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
