@@ -101,7 +101,6 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-Screenshots schermen langer
 https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior
 https://codepen.io/deannabosschert/pen/PopGXJx
 https://codepen.io/Yunusemre18/pen/GREVqqM
@@ -136,11 +135,14 @@ samen met je groepje opstellen
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
+Van articles in articles lists maken
+Input type search voor zoekbalk
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Opacity nav 
+
+List delay nav 
+
+Header van h5 naar h3 
 
 </details>
 
