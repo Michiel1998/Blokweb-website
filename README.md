@@ -94,7 +94,7 @@ samen met je groepje opstellen
 | Michiel                       | Oeds          | Youssef    | student 4        |
 | ---                           | ---           | ---        | ---              |
 | Nav in uitklappen             | niet aanwezig | Niet aanwezig | en dan ik dat    |
-| scroll snap en caroussel      |               |               | dit wil ik zeker |
+| scroll snap in caroussel      |               |               | dit wil ik zeker |
 | zoeken en typen               | ...           | ...          | ...              |
 
 

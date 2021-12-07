@@ -9,7 +9,7 @@
 	<title>North Kiteboarding</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="images/North_Logo_Green.png">
 </head>
 
 <body>
@@ -21,16 +21,23 @@
 		<a href="index.html">
 			<img src="images/North_Logo_Green.png" alt="North Kiteboarding Logo">
 		</a>
-		<a href="search">
+		<button href="search">
 			<img src="images/magnifying-glass.png" alt="Magnifying glass">
-		</a>
+			<input type="text" placeholder="Search for.." name="search" list="suggesties">
+			<datalist id="suggesties">
+				<option>Orbit</option>
+				<option>Carve</option>
+				<option>Reach</option>
+				<option>Pulse</option>
+			</datalist>
+		</button>
 		<button>
 			<span></span>
 			<span></span>
 			<span></span>
 		</button>
 		<ul >
-			<li><a href="products">Products</a></li>
+			<li><a href="index.html">Products</a></li>
 			<li><a href="riderstyles">Riderstyles</a></li>
 			<li><a href="foils">Foils</a></li>
 			<li><a href="lifestyle">Lifestyle</a></li>
@@ -104,6 +111,15 @@
 				<button>Join us</button>
 				<img src="images/image-2.jpg" alt="">
 			</section>
+			<section>
+					<form>
+						<h1>Join us</h1>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <input type="text" id="email" name="email" placeholder="Your email...">
+    					<input type="submit" value="Submit">
+					</form>
+			</section>
 		</article>
 		
 	</main>
@@ -135,8 +151,6 @@
 </html>
 
 
-<!-- carousels: https://www.sinds1971.nl/fed/bolletjes/index.html
-Bolletjes voor Carolin -->
 
 
 
