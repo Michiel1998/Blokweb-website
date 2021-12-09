@@ -191,8 +191,8 @@ onderkant pagina blijft hij haken
 - kleuren van form aangepast
 
 ### kleuren form: 
-<img src="images/formpje.jpg" width="375px" alt="kleuren form before">
-<img src="images/formpje.jpg" width="375px" alt="kleuren form after">
+<img src="images/formpje_before.jpg" width="375px" alt="kleuren form before">
+<img src="images/formpje_after.jpg" width="375px" alt="kleuren form after">
 
 - hamburger menu open dicht zou je kunnen doen met js keyframes en focus within. Dit is voor mij alleen nog te lastig om voor de deadline te doen. 
 
@@ -217,8 +217,8 @@ Met afleiding is alles nog goed te bedienen.
 - kleuren van form aangepast
 
 ### kleuren form: 
-<img src="images/formpje.jpg" width="375px" alt="kleuren form before">
-<img src="images/formpje.jpg" width="375px" alt="kleuren form after">
+<img src="images/formpje_before.jpg" width="375px" alt="kleuren form before">
+<img src="images/formpje_after.jpg" width="375px" alt="kleuren form after">
 
 
 
@@ -273,11 +273,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Michiel     | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Bespreken met tab weer bovenaan pagina  | en dit             | en ik dit    | en dan ik dat    |
+| Wat kan ik nog extra verbeteren? | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Zitten er nog fouten in mijn code?         | ...                | ...          | ...              |
 
 
 ### Verslag van meeting

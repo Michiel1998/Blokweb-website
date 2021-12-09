@@ -90,6 +90,10 @@
     width: 100vw; 
   }
 
+  body{
+    background-color: var(--background-black);
+  }
+
   
   /* Header */
 
@@ -111,13 +115,9 @@
     overflow-x: hidden;
     z-index: -2;
     
-    
   }
 
-  body{
-    background-color: var(--background-black);
-  }
-
+  
  
 /* Navigatie */
 nav{
@@ -127,11 +127,8 @@ nav{
   gap: .25em;
   height: 3em;
   padding-left: 1em;
-
   background-image: linear-gradient(
-    var(--north-green), var(--north-green)
-  );
-
+  var(--north-green), var(--north-green));
   background-size: 2px 75%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -141,7 +138,6 @@ nav button{
   background: none;
   border: none;
   appearance: none;
-  /* background-color: #31363d; */
 }
 
 nav a,
@@ -149,27 +145,24 @@ nav a,
     z-index: 50;
   }
 
-
 nav button img{
   display: block;
   height: 30px;
-
   width: 30px;  
 }
+
 nav button:nth-of-type(1){
   margin-left: auto;
 }
 
-  nav button:nth-of-type(2){
+nav button:nth-of-type(2){
     height: 30px;
     width: 30px;
     position: relative;
-
     display:flex;
     justify-content: center;
     align-items: center;
   }
-  
   
 
   nav ul {
@@ -182,9 +175,6 @@ nav button:nth-of-type(1){
     text-decoration: none;
     list-style: none;
     width: 100%;
-    
-  
-    
     padding-right: 5em;
     position: fixed;
     top: 0;
@@ -222,7 +212,6 @@ nav button:nth-of-type(1){
   height:55px;
   top:0;
   left:0;
-  
   padding: 10px;
   padding-left: 120px;
   position:fixed;
@@ -280,9 +269,6 @@ nav button:nth-of-type(1){
   }
 
   nav a img:first-child {
-    /* margin: 1em; */
-    /* position: fixed; */
-    /* top: 0; */
     width: 2.5em;
   }
 
@@ -292,20 +278,6 @@ nav button:nth-of-type(1){
     right: 0px;
     top: 0px;
     width: 25px;
-  }
-
-  nav svg {
-    margin: 5px;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    width: 30px; 
-  }
-
-  nav svg rect {
-    fill: var(--north-green);
-    height: 3px;
-    width: 30px; 
   }
 
 
@@ -324,6 +296,12 @@ nav button:nth-of-type(1){
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
   }
+  
+  main section ul {
+    display: flex;
+    list-style: none;
+    scroll-snap-align: center;
+  }
 
   ul li a {
     color: var(--font-grey);
@@ -335,13 +313,6 @@ nav button:nth-of-type(1){
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-  }
-  
-  main section ul {
-    display: flex;
-    list-style: none;
-    scroll-snap-type: x mandatory;
-    scroll-snap-align: center;
   }
 
   ul li a img {
@@ -390,6 +361,7 @@ nav button:nth-of-type(1){
     position: absolute;
     text-transform: uppercase;
     width: 80px;
+    -webkit-font-smoothing: antialiased;
   }
 
 
@@ -463,13 +435,9 @@ nav button:nth-of-type(1){
     position: absolute;
     width: 2.5em;
     margin-left:85%;
-    margin-bottom:10%;
+    margin-top: -10%;
   }
 }
-
- section form{
-  font-family: 'sofia-pro-extralight', sans-serif;
- }
 
 
 /* Formpje */
@@ -511,11 +479,17 @@ input[type=submit]:hover {
   border: 1px solid var(--north-green);
 }
 
+section form{
+  font-family: 'sofia-pro-extralight', sans-serif;
+ }
+
+
 
   /* States */
-/* nav a:focus{
+
+  nav a:focus{
     color:var(--north-green);
-  } */
+  }
 
   a:hover{
     color:var(--north-green);
