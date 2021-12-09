@@ -245,7 +245,7 @@ Dit bleek zo te zijn omdat ik hem in css in uppercase heb staan. Wat goed is, da
 
 ### button: 
 <img src="images/labels_before.jpg" width="375px" alt="lastig">
-<img src="images/label_after.jpg" width="375px" alt="lastig">
+<img src="images/labels_after.jpg" width="375px" alt="lastig">
 
 
 
@@ -319,8 +319,55 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+Html
+
+1. https://www.w3schools.com/graphics/svg_line.asp
+2. https://www.w3schools.com/howto/howto_js_topnav.asp
+3. https://www.w3schools.com/howto/howto_css_navbar_image.asp
+4. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+5. https://codepen.io/shooft/pen/dyRVVRr
+6. https://codepen.io/shooft/pen/GREMMjV
+7. https://codepen.io/shooft/pen/powEdze
+8. https://www.youtube.com/watch?v=jx5jmI0UlXU
+9. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist
+10. https://www.w3schools.com/howto/howto_js_slideshow.asp
+11. https://www.w3schools.com/html/html5_video.asp
+12. https://www.w3schools.com/html/html_forms.asp
+13. https://www.w3schools.com/tags/tag_footer.asp
+14. https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+15. Sanne 
+16. Studentassistenten
+17. https://www.w3schools.com/css/css_grid.asp
+18. https://www.w3schools.com/css/css_positioning.asp
+19. w3schools.com/html/html_lists.asp
+
+css
+1. https://www.w3schools.com/css/css_background.asp
+2. https://www.w3schools.com/css/css_margin.asp
+3. https://www.w3schools.com/css/css_padding.asp
+4. https://www.w3schools.com/css/css_font.asp
+5. https://www.w3schools.com/css/css_icons.asp
+6. https://www.w3schools.com/css/css_positioning.asp
+7. https://www.w3schools.com/css/css_inline-block.asp
+8. https://www.w3schools.com/css/css_navbar.asp
+9. https://www.w3schools.com/css/css_overflow.asp
+10. https://www.w3schools.com/css/css_form.asp
+11. https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+12. https://www.w3schools.com/css/css_grid.asp
+13. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+14. https://www.youtube.com/watch?v=HZHHBwzmJLk&ab_channel=Fireship
+15. https://www.sinds1971.nl/fed/animaties/
+16. https://codepen.io/shooft/pen/dyRVRGo
+17. https://codepen.io/shooft/pen/powKLNz
+18. https://codepen.io/shooft/pen/ExXRLXL
+19. w3schools.com/css/css_display_visibility.asp
+20. https://www.w3schools.com/css/css_overflow.asp
+21. https://www.w3schools.com/css/css_dropdowns.asp
+22. https://www.w3schools.com/css/css_attribute_selectors.asp
+23. Sanne 
+24. Studentassistenten
+25. https://www.w3schools.com/js/default.asp
+26. https://codepen.io/shooft/pen/dyRprgb
+
 
 </details>
