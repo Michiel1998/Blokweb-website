@@ -159,21 +159,95 @@ Header van h5 naar h3
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Eerste test met alleen toetsenboard Bram
+
+searchbar heeft geen focus. Deze mist hij.
+
+hamburger menu open dicht
+
+gaat door menu heen zonder dat je hem ziet
+
+In dark mode kan je de tekst in de form niet zien.
+
+focus-within
+
+js keydownframes
+
+onderkant pagina blijft hij haken
+
+- Button onderkant pagina die naar boven gaat 
+
+### button: 
+<img src="images/up_button_before.jpg" width="375px" alt="button before">
+<img src="images/up_button_after.jpg" width="375px" alt="button after">
+
+- input buiten de button gezet 
+
+### input buiten button: 
+<img src="images/nav_button_before.jpg" width="375px" alt="input before">
+<img src="images/nav_button_after.jpg" width="375px" alt="input after">
+
+- kleuren van form aangepast
+
+### kleuren form: 
+<img src="images/formpje.jpg" width="375px" alt="kleuren form before">
+<img src="images/formpje.jpg" width="375px" alt="kleuren form after">
+
+- hamburger menu open dicht zou je kunnen doen met js keyframes en focus within. Dit is voor mij alleen nog te lastig om voor de deadline te doen. 
+
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Oefenen met beperking Marijn
+
+Sommige teksten zijn minder goed te lezen zoals de footer, maar alles is nog wel leesbaar. 
+
+Met parkinson is de website "goed" te bedienen.
+
+Met afleiding is alles nog goed te bedienen. 
+
+- tekst footer groter gemaakt. 
+
+### tekst footer: 
+<img src="images/footer_before.jpg" width="375px" alt="tekst footer before">
+<img src="images/footer_after.jpg" width="375px" alt="tekst footer after">
+
+- kleuren van form aangepast
+
+### kleuren form: 
+<img src="images/formpje.jpg" width="375px" alt="kleuren form before">
+<img src="images/formpje.jpg" width="375px" alt="kleuren form after">
+
+
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Voor lezen lijkt goed te gaan maar zitten nog een aantal fouten in. 
+
+voice over 
+
+Join us staat in al caps moet klein en staat button achter
+
+Labels aan form toevoegen
+
+- join us staat niet meer in caption 
+
+Dit bleek zo te zijn omdat ik hem in css in uppercase heb staan. Wat goed is, daarom heb ik dit zo gelaten. 
+
+### join us: 
+<img src="images/join_us.jpg" width="375px" alt="join us">
+
+
+- labels aan forms zijn toegevoegd. 
+
+### button: 
+<img src="images/labels_before.jpg" width="375px" alt="lastig">
+<img src="images/label_after.jpg" width="375px" alt="lastig">
+
+
 
 
 #### Titel nog een bevinding. 

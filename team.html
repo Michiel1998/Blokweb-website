@@ -12,17 +12,20 @@
 </head>
 <body>
     <header>
-        <svg>
-            <line x1="0" y1="0" x2="0" y2="25"/>
-        </svg>
         <nav>
             <a href="index.html">
                 <img src="images/North_Logo_Green.png" alt="North Kiteboarding Logo">
             </a>
             <button href="search">
-                <img src="images/magnifying-glass.png" alt="Magnifying glass">
-                <input type="text" placeholder="Search for.." name="search">
-            </button>
+			<img src="images/magnifying-glass.png" alt="Magnifying glass">
+		</button>
+		<input type="text" placeholder="Search for.." name="search" list="suggesties">
+			<datalist id="suggesties">
+				<option>Orbit</option>
+				<option>Carve</option>
+				<option>Reach</option>
+				<option>Pulse</option>
+			</datalist>
             <button>
                 <span></span>
                 <span></span>
@@ -68,7 +71,7 @@
             </li>
             <li class="list-item">
                 <img src="images/teamriders/nick.jpeg" alt="Nick Jacobsen">
-                <a href="https://www.instagram.com/nick_jacobsen/">@nick_jacobsen\</a>
+                <a href="https://www.instagram.com/nick_jacobsen/">@nick_jacobsen</a>
             </li>
             <li class="list-item">
                 <img src="images/teamriders/tom.png" alt="Tom Bridge">
@@ -84,22 +87,26 @@
             </li>
             <li class="list-item">
                 <img src="images/teamriders/marley.jpeg" alt="Gnarly Marley">
-                <a href="https://www.instagram.com/the_real_gnarly_marley/">@the_real_gnarly_marley</a>
+                <a href="https://www.instagram.com/the_real_gnarly_marley/">@the_real_marley</a>
             </li>
             <li class="list-item">
                 <img src="images/teamriders/jett.jpeg" alt="Jett Bradshaw">
                 <a href="https://www.instagram.com/jettbradshaw_/">@jettbradshaw_</a>
             </li>
+            <li class="list-item">
+                <h1>Coaches</h1>
+                <img src="images/teamriders/coaches.jpeg" alt="ck_performance_clinics">
+                <a href="https://www.instagram.com/ck_performance_clinics/">@ck_performance</a>
+            </li>
         </ul>
 
         <!-- Als ik deze article plaats verschuift de CSS, hoe kan dat? -->
 
-        <!-- <article>
+        <article>
             <section>
                 <img src="images/image-2.jpg" alt="">
-                <button>Join us</button>
             </section>
-        </article> -->
+        </article>
     </main>
     
     <footer>

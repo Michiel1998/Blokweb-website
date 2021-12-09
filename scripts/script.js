@@ -9,12 +9,12 @@ function toonMenu() {
 }
 
 
- var zoeken = document.querySelector("nav button img");
+ var zoeken = document.querySelector("nav button:nth-of-type(1)");
 
  zoeken.addEventListener("click", toonZoekbalk);
 
  function toonZoekbalk() {
- var nav = document.querySelector("nav button input");
+ var nav = document.querySelector("nav input");
  nav.classList.toggle("zoekbalkOpen");
  console.log(nav.classlist)
     
@@ -27,7 +27,7 @@ function toonMenu() {
 //  function toonFormpje() {
 //  var nav = document.querySelector("section form");
 //  nav.classList.toggle("formpjeOpen");
-//  console.log(nav.classlist);
+//  console.log(nav.classList);
 //  }
 
 

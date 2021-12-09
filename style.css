@@ -4,6 +4,7 @@
   --font-white: white;
   --font-grey: white;
   --north-green: #00a987;
+  --form-green:#00a987;;
   --light-grey: #c4c6ca;
  }
 
@@ -24,8 +25,11 @@
   padding: 0;
 }
 
+
+/* Mediaqueries */
+
 @media only screen and (min-width: 320px){
-  ul li a {
+ section ul li a {
     width: 20em;
   }
 
@@ -34,9 +38,25 @@
   }
 }
 
+@media only screen and (min-width: 350px){
+  section ul li a {
+     width: 22em;
+   }
+ 
+ 
+ }
+
+ @media only screen and (min-width: 390px){
+  section ul li a {
+     width: 24em;
+   }
+ 
+ 
+ }
+
 @media only screen and (min-width: 420px){
-  ul li a {
-    width: 30em;
+ section ul li a {
+    width: 26em;
   }
 
   body header {
@@ -44,6 +64,22 @@
   }
 
 }
+
+@media only screen and (min-width: 470px){
+  section ul li a {
+     width: 29em;
+   }
+ 
+ 
+ }
+
+ @media only screen and (min-width: 505px){
+  section ul li a {
+     width: 31em;
+   }
+ 
+ 
+ }
 
 @media only screen and (min-width: 320px) {
   html, body {
@@ -54,9 +90,11 @@
     width: 100vw; 
   }
 
+  
+  /* Header */
+
   header svg {
     display: block;
-    margin-left: 50%;
     z-index: 50;
   }
 
@@ -70,10 +108,10 @@
     background-image: url(../images/hero-image-mobile.png);
     background-repeat: no-repeat;
     background-size:100%;
-    max-width: 100%;
-    overflow: hidden;
     overflow-x: hidden;
     z-index: -2;
+    
+    
   }
 
   body{
@@ -82,42 +120,57 @@
 
  
 /* Navigatie */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .25em;
+  height: 3em;
+  padding-left: 1em;
 
-nav button img{
-  align-items:center;
-  background: none;
-  border: none;
-  display:flex;
-  display: block;
-  height: 30px;
-  justify-content:center;
-  margin: 10px 50px auto auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 30px;  
+  background-image: linear-gradient(
+    var(--north-green), var(--north-green)
+  );
+
+  background-size: 2px 75%;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
-  nav button:nth-of-type(2){
-    align-items:center;
-    background: none;
-    border: none;
-    display:flex;
-    display: block;
-    height: 30px;
-    justify-content:center;
-    margin: 10px 10px auto auto;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 30px;
-    right: 0;
-  }
-  
-  nav a,
+nav button{
+  background: none;
+  border: none;
+  appearance: none;
+  /* background-color: #31363d; */
+}
+
+nav a,
   nav button {
     z-index: 50;
   }
+
+
+nav button img{
+  display: block;
+  height: 30px;
+
+  width: 30px;  
+}
+nav button:nth-of-type(1){
+  margin-left: auto;
+}
+
+  nav button:nth-of-type(2){
+    height: 30px;
+    width: 30px;
+    position: relative;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
 
   nav ul {
     align-items: center;
@@ -129,12 +182,14 @@ nav button img{
     text-decoration: none;
     list-style: none;
     width: 100%;
-    margin-top: -170px; 
-    /* Kan dit zonder -margin? */
-    margin-top: -170px; 
+    
+  
+    
     padding-right: 5em;
     position: fixed;
-    transform: translateY(-120%);
+    top: 0;
+    left:0;
+    transform: translateY(-100%);
     transition: .5s;
     z-index: 49;
   }
@@ -160,13 +215,14 @@ nav button img{
   z-index: 51;
  }
 
- nav button input{ 
+ nav input{ 
   background-color: var(--background-black);
   border: none;
   font-family: 'sofia-pro-regular', sans-serif;
-  height:50px;
-  margin-top:-165px;
-  margin-left: -2px;
+  height:55px;
+  top:0;
+  left:0;
+  
   padding: 10px;
   padding-left: 120px;
   position:fixed;
@@ -174,10 +230,10 @@ nav button img{
   transition:.3s;
   transform: translateY(-100%);
   transition: .3s;
-  z-index: 50;
+  z-index: 30;
  }
 
- nav button input.zoekbalkOpen{
+ nav input.zoekbalkOpen{
   transform: translateY(0%);
  }
 
@@ -224,9 +280,9 @@ nav button img{
   }
 
   nav a img:first-child {
-    margin: 1em;
-    position: fixed;
-    top: 0;
+    /* margin: 1em; */
+    /* position: fixed; */
+    /* top: 0; */
     width: 2.5em;
   }
 
@@ -347,7 +403,10 @@ nav button img{
 
   .list-item > img {
     display: block;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
     width: 75%;
   }
 
@@ -355,7 +414,7 @@ nav button img{
     bottom: 30px;
     color: var(--north-green);
     font-family: 'sofia-pro-extralight', sans-serif;
-    left: 60px;
+    left: 50px;
     position: relative;
     text-decoration: none;
     text-transform: lowercase;
@@ -378,7 +437,7 @@ nav button img{
   footer ul li {
     color: var(--font-white);
     font-family:'sofia-pro-extralight', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     padding: 5px;
     -webkit-font-smoothing: antialiased;
   }
@@ -399,6 +458,13 @@ nav button img{
     stroke-width: 0.25em;
     stroke: var(--north-green);
   } 
+
+  footer a img {
+    position: absolute;
+    width: 2.5em;
+    margin-left:85%;
+    margin-bottom:10%;
+  }
 }
 
  section form{
@@ -407,16 +473,21 @@ nav button img{
 
 
 /* Formpje */
-section form h1{
-  font-family: 'sofia-pro-extralight', sans-serif;
-  margin-top: -1px;
-  -webkit-font-smoothing: antialiased;
+section form label{
+  box-sizing: border-box;
+  color: var(--form-green);
+  display: inline-block;
+  font-family: inherit;
+  margin: 2px 0;
+  padding: 5px 5px;
+  width: 100%;
+
 }
 
 section input[type=text], select {
   border: 1px solid var(--north-green);
   box-sizing: border-box;
-  color: var(--background-white);
+  color: var(--form-green);
   display: inline-block;
   font-family: inherit;
   margin: 2px 0;
@@ -427,7 +498,7 @@ section input[type=text], select {
 input[type=submit] {
   background-color: var(--north-green);
   border: 1px solid var(--north-green);
-  color: var(--white);
+  color: var(--form-white);
   cursor: pointer;
   font-family: inherit;
   margin: 25px 0;
@@ -442,10 +513,9 @@ input[type=submit]:hover {
 
 
   /* States */
-
- a:focus{
+/* nav a:focus{
     color:var(--north-green);
-  }
+  } */
 
   a:hover{
     color:var(--north-green);
@@ -468,7 +538,8 @@ input[type=submit]:hover {
     color:var(--north-green);
   }
 
-  
+
+
 /* light mode */
 
 @media (prefers-color-scheme: light) {
@@ -478,6 +549,7 @@ input[type=submit]:hover {
     --font-grey: #31363d;
     --font-white: black;
     --north-green: #00a987;
+    --form-green:#00a987;
     --light-grey: #c4c6ca;
     --white: black;
   }

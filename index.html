@@ -14,23 +14,23 @@
 
 <body>
 	<header class="home">
-	<svg>
+	<!-- <svg>
 		<line x1="0" y1="0" x2="0" y2="25"/>
-	</svg>
+	</svg> -->
 	<nav>
 		<a href="index.html">
 			<img src="images/North_Logo_Green.png" alt="North Kiteboarding Logo">
 		</a>
 		<button href="search">
 			<img src="images/magnifying-glass.png" alt="Magnifying glass">
-			<input type="text" placeholder="Search for.." name="search" list="suggesties">
+		</button>
+		<input type="text" placeholder="Search for.." name="search" list="suggesties">
 			<datalist id="suggesties">
 				<option>Orbit</option>
 				<option>Carve</option>
 				<option>Reach</option>
 				<option>Pulse</option>
 			</datalist>
-		</button>
 		<button>
 			<span></span>
 			<span></span>
@@ -113,9 +113,11 @@
 			</section>
 			<section>
 					<form>
-						<h1>Join us</h1>
+						<label for="fname">First name:</label><br>
                         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+						<label for="lname">Last name:</label><br>
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						<label for="email">E-mail:</label><br>
                         <input type="text" id="email" name="email" placeholder="Your email...">
     					<input type="submit" value="Submit">
 					</form>
@@ -145,6 +147,11 @@
 				<line x1="0" y1="0" x2="0" y2="50"/>
 			</svg>
 		</section> -->
+	
+
+		<a href="#">
+			<img src="images/North_Logo_Green.png" alt="North Kiteboarding Logo">
+		</a>
 	</footer>
 	<script src="scripts/script.js"></script>
 	</body>
