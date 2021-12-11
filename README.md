@@ -13,7 +13,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
 Michiel Schipper
@@ -54,7 +53,7 @@ Go Green Pagina
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>2e werkgroep</summary>
 
 ### de hele pagina: 
 <img src="images/breakdown_schets_fed.png" width="375px" alt="breakdown van de hele pagina">
@@ -74,12 +73,10 @@ Go Green Pagina
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>1e voortgang</summary>
 
 ### Stand van zaken:
 Ik was eerst begonnen met het namaken van de website op groot scherm. Echter begreep ik later dat je moest beginnen op klein scherm. Daarom ben ik hier mee begonnen. Zoals altijd met html en css zijn er altijd dingen die stroef lopen. Bij het begin was het lastig om de background img goed te centreren en af te snijden. Daarna was de volgende uitdaging de navgatie goed centreren en de grotes goed krijgen. De navigatie helemaal werkend krijgen ga ik volgende week doen. De volgende uitdaging was de caroussel. Dit is nog geen caroussel maar een auto scroll, dit werkt erg goed. Ik kreeg het alleen nog niet voor elkaar om te scroll snappen. Dit ga ik vragen bij het voortgangs moment. 
-
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### lastig: 
 <img src="images/caroussel.jpg" width="375px" alt="lastig">
@@ -101,6 +98,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
+Deze informatie heb ik gekregen om mijn problemen op te lossen.
 https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior
 https://codepen.io/deannabosschert/pen/PopGXJx
 https://codepen.io/Yunusemre18/pen/GREVqqM
@@ -115,7 +113,7 @@ https://codepen.io/Yunusemre18/pen/GREVqqM
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>2e voortgang</summary>
 
 ### Stand van zaken
 Deze week ben ik aan de slag gegaan met mijn navigatie en de grid. Ik heb de navigatie vrij snel voor elkaar gekregen omdat we dit vorige les hadden besproken. Dit heeft mij veel geholpen. Dit was hetzelfe met de grids. Echter kwam ik erachter dat ik voor mijn twee pagina's alletwee articles gebruik waardoor ik die nu in de css allebei aanspreek. Als ik classes kon gebruiken kon ik dit oplossen maar ik weet nu nog niet hoe ik dat zonder moet doen. 
@@ -153,7 +151,7 @@ Header van h5 naar h3
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary>Toegankelijkheidstest uitwerkingen</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -249,12 +247,6 @@ Dit bleek zo te zijn omdat ik hem in css in uppercase heb staan. Wat goed is, da
 
 
 
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
 </details>
 
 
@@ -264,29 +256,34 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat vrij voorspoedig met mijn website, echter heb ik natuurlijk nog wat extra vragen voor het eindgesprek. Waar ik nog niet uikwam was om de website weer omhoog te laten tabben. Op deze manier kunnen gebruikers die alleen het toetsenbord gebruiken eenvoudig weer naar boven aan de pagina komen. Ik wil ook nog vragen wat ik nog extra kan verbeteren aan mijn website. Ik ben ook nog erg benieuwd of er nog fouten in mijn code ziten. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Michiel     | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| Bespreken met tab weer bovenaan pagina  | en dit             | en ik dit    | en dan ik dat    |
-| Wat kan ik nog extra verbeteren? | dit als er tijd is | nog een punt | dit wil ik zeker |
-| Zitten er nog fouten in mijn code?         | ...                | ...          | ...              |
+| Michiel                                               | Oeds               | Youssef   | student 4        |
+| ---                                                   | ---                | Niet aanwezig    | ---              |
+| Bespreken met tab weer bovenaan pagina                | Hoeft niks te bespreken             | en ik dit    | en dan ik dat    |
+| Wat kan ik nog extra verbeteren? dit als er tijd is   | nog een punt       | dit wil ik zeker |
+| Zitten er nog fouten in mijn code?                    | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+max widht max height op img 
+
+Focus op up button
+
+footer li in aparte ul 
+
+br in form mag niet 
+
+H1 neerzetten voor screenreader en google
 
 </details>
 
@@ -297,14 +294,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>Eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Natuurlijk is het altijd een uitdaging om weer te beginnen met html en css na er een tijdje niet meer naar gekeken te hebben. Aan het begin was ik te snel gestart zonder echt de opdracht goed bekeken te hebben. Ik begon meteen op web formaat en ging aan de slag zonder breakdownschetsen gemaakt te hebben. Dit bleek zonde van mijn werk te zijn. De basis was redelijk okay maar na het maken van breakdownschetsen ging alles gelijk veel makkelijker. Natuurlijk loop je altijd tegen dingen aan en zit je soms even met je handen in het haar. Gelukkig was alles redelijk snel opgelost door de hulp van Sanne,studentassistenen en/of google. Uiteindelijk ben ik erg tevreden over het resultaat. Ik heb nog nooit eerder een website nagemaakt. Dit was nieuw en een hele andere manier van werken. Als je zelf een website maakt en je nav staat niet helemaal perfect maakt dat eigenlijk niet veel uit(behalve voor jezelf dan). Nu moest je nog specifieker aan de slag gaan om alles perfect te krijgen. Ik vond het fijn om weer opgefrisd te worden en kan niet wachten op project tech!
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+
+### eindresultaat: 
+<img src="images/eindresultaat_pagina1.jpg" width="375px" alt="eindresultaat pagina 1">
+<img src="images/eindresultaat_pagina2.jpg" width="375px" alt="eindresultaat pagina 2">
 
 </details>
 
