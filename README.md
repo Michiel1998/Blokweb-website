@@ -59,10 +59,7 @@ Go Green Pagina
 <img src="images/breakdown_schets_fed.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdown_menu.png" width="375px" alt="breakdown van het menu">
 
 </details>
 
