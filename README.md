@@ -368,4 +368,7 @@ css
 26. https://codepen.io/shooft/pen/dyRprgb
 
 
+js 
+1. https://alvarotrigo.com/blog/css-animations-scroll/
+
 </details>

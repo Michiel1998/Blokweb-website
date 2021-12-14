@@ -30,6 +30,9 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
+ html{ 
+  overflow: hidden;
+ }
 
 
 /* Mediaqueries */
@@ -116,6 +119,7 @@ img {
 
 
   /* Navigatie */
+  
   nav {
     display: flex;
     justify-content: space-between;
@@ -382,6 +386,10 @@ img {
     width: 75%;
   }
 
+  .riders-container li {
+    list-style: none;
+  }
+
   .list-item > a {
     bottom: 30px;
     color: var(--north-green);
@@ -404,6 +412,7 @@ img {
   footer ul {
     background-color: var(--background-black);
     padding: 8px;
+    list-style: none;
   }
 
   footer ul li {
@@ -514,6 +523,18 @@ section input[type="text"]:focus {
 
 footer a:focus {
   color: var(--north-green);
+}
+
+/* scroll animaties */
+
+.reveal{
+  transform: translatex(20%);
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+.reveal.active{
+  transform: translatex(0);
+  opacity: 1;
 }
 
 
@@ -656,3 +677,34 @@ footer a:focus {
     }
   }
 }
+
+
+/* Grapjes 
+
+#wife{
+  right:100%;
+  margin:0;
+}
+
+.ninja{
+  color:black;
+  visibility: hidden;
+  animation-duration: .00000001;
+}
+
+.ghost{
+  color:white;
+  opacity:0.1;
+}
+
+.ikea{
+  display: table;
+}
+
+.lego{
+  display: block;
+}
+
+.towerofpisa{
+  font-style:italic;
+} */
